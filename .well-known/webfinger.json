@@ -1,0 +1,10 @@
+{
+  "subject": "payid:pay$kramer.money",
+  "links": [
+    {
+      "rel": "https://payid.org/ns/payid-uri-template/1.0",
+      "template": "https://kramer.money/payid/pay",
+      "type": "application/jrd+json"
+    }
+  ]
+}
