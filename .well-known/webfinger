@@ -1,10 +1,14 @@
 {
-  "subject": "payid:pay$fluid.money",
+  "subject": "payid:pay$kramer.money",
   "links": [
     {
-      "rel": "https:\/\/payid.org\/ns\/payid-uri-template\/1.0",
-      "template": "https:\/\/fluid.money\/payid/pay",
-      "type": "application\/jrd+json"
+      "rel": "https://payid.org/ns/payid-uri-template/1.0",
+      "template": "https://kramer.money/payid/pay",
+      "type": "application/jrd+json"
+    },
+    {
+      "rel": "https://payid.org/ns/easy-checkout-url/1.0",
+      "template": "https://dev.wallet.xpring.io/wallet/xrp/testnet/payto?receiverPayId={receiverPayId}&amount={amount}&nextUrl={nextUrl}?easyCheckoutSuccess=true"
     }
   ]
 }
